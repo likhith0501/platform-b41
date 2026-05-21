@@ -1,7 +1,8 @@
 from flask import Blueprint, request, jsonify
-from services.railway_service import RailwayService
-from models import MAJOR_JUNCTIONS
+from backend.services.railway_service import RailwayService
+from backend.models import MAJOR_JUNCTIONS
 from backend.auth import require_api_key
+
 
 bp = Blueprint('trains', __name__, url_prefix='/api/trains')
 

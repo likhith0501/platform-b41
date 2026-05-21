@@ -1,4 +1,5 @@
-from models import MAJOR_JUNCTIONS, TRAIN_JOURNEYS
+from backend.models import MAJOR_JUNCTIONS, TRAIN_JOURNEYS
+
 
 class RailwayService:
     @staticmethod

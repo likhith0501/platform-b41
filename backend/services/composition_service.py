@@ -1,4 +1,5 @@
-from models import RAKE_TYPES, STATION_CONFIG, TRAIN_JOURNEYS
+from backend.models import RAKE_TYPES, STATION_CONFIG, TRAIN_JOURNEYS
+
 
 def get_train_journey(train_number):
     """Retrieve static journey info for a train"""

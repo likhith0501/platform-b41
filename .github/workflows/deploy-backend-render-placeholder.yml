@@ -1,0 +1,10 @@
+name: Placeholder - backend is deployed manually to Render
+
+on:
+  workflow_dispatch:
+
+jobs:
+  info:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "Render deployment should be configured via Render UI or Render's CLI. GitHub Actions for backend can be added once you provide the Render service details."

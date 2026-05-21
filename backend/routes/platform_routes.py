@@ -1,7 +1,8 @@
 from flask import Blueprint, request, jsonify
-from services.composition_service import get_coach_position
-from models import MAJOR_JUNCTIONS
+from backend.services.composition_service import get_coach_position
+from backend.models import MAJOR_JUNCTIONS
 from backend.auth import require_api_key
+
 
 bp = Blueprint('platform', __name__, url_prefix='/api')
 
